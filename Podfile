@@ -7,6 +7,7 @@ target 'FetchAPI' do
 
   # Pods for FetchAPI
   pod 'RxSwift'
+  pod 'RxCocoa'
 
   target 'FetchAPITests' do
     inherit! :search_paths
