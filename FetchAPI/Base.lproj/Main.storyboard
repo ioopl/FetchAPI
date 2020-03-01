@@ -43,6 +43,12 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="btnSend" destination="Bgj-Ul-tVa" id="BYv-JX-UE9"/>
+                        <outlet property="lblMessage" destination="cSL-UN-06v" id="H2t-dg-F0p"/>
+                        <outlet property="txtAppID" destination="344-1a-me3" id="lxi-RJ-0xk"/>
+                        <outlet property="txtAppKey" destination="Tra-wd-XB4" id="aey-U5-4Jw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
