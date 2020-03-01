@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		52B771EACB3C8476123B1BC3 /* Pods_FetchAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7D08BB6BF7E17F14F660CF /* Pods_FetchAPI.framework */; };
+		591A08E5240C662200A7CE1B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591A08E4240C662200A7CE1B /* SearchViewController.swift */; };
 		599F06A1240BEDA7000E7684 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599F06A0240BEDA7000E7684 /* AppDelegate.swift */; };
 		599F06A3240BEDA7000E7684 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599F06A2240BEDA7000E7684 /* SceneDelegate.swift */; };
 		599F06A5240BEDA7000E7684 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599F06A4240BEDA7000E7684 /* LoginViewController.swift */; };
@@ -31,6 +32,7 @@
 /* Begin PBXFileReference section */
 		1ADDBE96DEADA1228E9924B7 /* Pods_FetchAPITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FetchAPITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BD072D9DE9A9DDE8B42EA5E /* Pods-FetchAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FetchAPI.release.xcconfig"; path = "Target Support Files/Pods-FetchAPI/Pods-FetchAPI.release.xcconfig"; sourceTree = "<group>"; };
+		591A08E4240C662200A7CE1B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		599F069D240BEDA7000E7684 /* FetchAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FetchAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		599F06A0240BEDA7000E7684 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		599F06A2240BEDA7000E7684 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				599F06A0240BEDA7000E7684 /* AppDelegate.swift */,
 				599F06A2240BEDA7000E7684 /* SceneDelegate.swift */,
 				599F06A4240BEDA7000E7684 /* LoginViewController.swift */,
+				591A08E4240C662200A7CE1B /* SearchViewController.swift */,
 				599F06A6240BEDA7000E7684 /* Main.storyboard */,
 				599F06A9240BEDA9000E7684 /* Assets.xcassets */,
 				599F06AB240BEDA9000E7684 /* LaunchScreen.storyboard */,
@@ -301,6 +304,7 @@
 			files = (
 				599F06A5240BEDA7000E7684 /* LoginViewController.swift in Sources */,
 				599F06A1240BEDA7000E7684 /* AppDelegate.swift in Sources */,
+				591A08E5240C662200A7CE1B /* SearchViewController.swift in Sources */,
 				599F06A3240BEDA7000E7684 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
